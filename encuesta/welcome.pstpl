@@ -1,0 +1,68 @@
+<!-- Bootstrap -->
+    <link href="/third_party/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+{CHECKJAVASCRIPT}
+<div class="tools" id="languageselect-wrapper">{LANGUAGECHANGER}</div>
+<div id="welcome">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="dibujo_welcome">
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <p id='surveydescription' class="text">{SURVEYDESCRIPTION}</p>
+            <br/>
+	        <p id='surveywelcome' class="text">{WELCOME}</p>
+            <br/>
+	        <!--p id="therearexquestions" class="text">{THEREAREXQUESTIONS}</p-->
+        </div>
+    </div>
+
+</div>
+
+<script>
+ $(document).ready(function()
+ {
+    $('#movenextbtn').text('Comenzar');
+    
+    /*$( ".txt-nombre" ).on('keydown', function() {
+        $("#acepto").prop("checked", true);
+        var btnMoveNext = document.getElementById("movenextbtn");
+        var radio = document.getElementById("acepto");
+        validarCheck(radio, btnMoveNext);
+    })*/
+
+    var form = document.getElementById("limesurvey");
+    form.addEventListener("submit", function (e) {
+        var enviar = false;
+        var msg = "";
+        if ($('#nombres').val() == "" ) {
+            msg = "- Debes ingresar tu nombre. ";
+        }
+    
+        if ($('#apellidos').val() == "" ) {
+            msg = msg + "<br>- Debes ingresar tus apellidos.";
+        }
+        
+        if(msg == ""){
+            enviar = true;
+        }
+
+        if (enviar) {
+            pasarAEncuesta('OK') //temporal saveAgree no acktualizadado
+            //saveAgree($('#acepto').is(":checked"),$('#nombres').val(),$('#apellidos').val());            
+        } else {
+            alertify.alert(msg);
+            e.preventDefault();            
+        }
+        
+    });
+    
+ });
+ 
+     function pasarAEncuesta(data) {
+        console.log(data);
+        if (data.result == 'OK'){
+            return true;
+        }
+    }
+</script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

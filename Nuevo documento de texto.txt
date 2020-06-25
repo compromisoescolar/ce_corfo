@@ -1,0 +1,1 @@
+SELECT * FROM ce_participantes WHERE ce_participanes_token IN ('A21856890','A21736419','A21563642','A21643118','A21563642') 

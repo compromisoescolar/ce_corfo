@@ -1,0 +1,139 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo_sup {
+  position: relative;
+  float: right;
+}
+
+#linea-superior {
+  width: 100%;
+  height: 20px;
+  background: #fc455c;
+}
+
+
+ #c_tit {
+  color: #4cc2d4;
+  line-height: 13px;
+}
+
+hr , #tit {
+  height: 1px;
+  background-color: #4cc2d4;
+}
+
+
+#t_encuesta {
+  padding: 9px;
+  width: 195px;
+  height: 400px;
+  background-image: url("../img/banner_encuesta.png");
+  background-size:100% auto;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#t_resultados {
+  padding: 9px;
+  width: 195px;
+  height: 400px;
+  background-image: url("../img/banner_resultados.png");
+  background-size:100% auto;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#t_resultados:hover, #t_encuesta:hover, #t_educativos:hover  { 
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#t_resultados:active, #t_encuesta:active, #t_educativos:active  { 
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#t_educativos {
+  padding: 9px;
+  width: 195px;
+  height: 400px;
+  background-image: url("../img/banner_recursos.png");
+  background-size:100% auto;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+
+
+
+
+
+.card_c {
+  width: 70%;
+  height: 60%;
+  max-width: 1400px;
+  max-height: 900px;
+  min-width: 900px;
+  min-height: 700px;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  border: 1.5px solid #A5A1A0;  
+  /*box-shadow: rgba(0, 0, 0, 0.22) 1px 1px 1px 1px;*/
+  border-radius: 10px;
+}
+
+td {
+  color: white;
+  /*text-shadow: 1px 1px 1px black;*/
+}
+
+footer {
+  border: 1px solid #4cc2d4; 
+  background: white;
+  display: inline-block;  
+  vertical-align: bottom;
+  height: 200px;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 5px;
+}
+
+/*.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+*/
+
+
+.btn_cuadrado:hover { 
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn_cuadrado:active { 
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+
+body {
+  font: condensed 100% sans-serif;
+}
+
+
+
+
+.contenido {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

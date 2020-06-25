@@ -1,0 +1,103 @@
+<div class="panel panel-info mt-4">
+                                                        <div class="panel-heading">Compromiso Escolar</div>
+                                                        <div class="panel-body">
+                                                            <div class="col-md-6">
+                                                                <div class="col-xs-5">
+                                                                    <select name="sle_estudiantes" id="sle_estudiantes" class="form-control">
+                                                                        <option value="">apuki ejempplo</option>
+                                                                    </select>            
+                                                                </div>           
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <button class="btn btn-primary pull-right">Descargar Reporte <i class="fa fa-download" aria-hidden="true"></i></button>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="table-responsive mt-4">          
+                                                                    <table class="table table-bordered">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Dimension</th>
+                                                                                <th>Estudiante</th>
+                                                                                <th>Indicador</th>                                                                                
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody> 
+                                                                                <tr>
+                                                                                        <td><i id="afectivo_definicion" class="fa fa-question hvr-grow" aria-hidden="true"></i> Compromiso Escolar</td>
+                                                                                        <td>Fortaleza A o M <br>O<br>Alerta M o A </td>
+                                                                                        <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+        
+                                                                                    </tr>                                                                           
+                                                                            <tr>
+                                                                                <td><i id="afectivo_definicion" class="fa fa-question hvr-grow" aria-hidden="true"></i> Afectivo</td>
+                                                                                <td>Fortaleza A o M <br>O<br>Alerta M o A </td>
+                                                                                <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><i id="conductual_definicion" class="fa fa-question" aria-hidden="true"></i> Conductual</td>
+                                                                                <td>Fortaleza A o M <br>O<br>Alerta M o A</td>
+                                                                                <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><i id="cognitivo_definicion" class="fa fa-question" aria-hidden="true"></i> Cognitivo</td>
+                                                                                <td>Fortaleza A o M <br>O<br>Alerta M o A </td>
+                                                                                <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+<div class="panel panel-info mt-4">
+                                                        <div class="panel-heading">Factores Contextuales</div>
+                                                        <div class="panel-body">
+                                                            <div class="col-md-12">
+                                                                    <div class="table-responsive mt-4">          
+                                                                            <table class="table table-bordered">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>Dimension</th>
+                                                                                        <th>Estudiante</th>
+                                                                                        <th>Indicador</th>                                                                                
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody> 
+                                                                                        <tr>
+                                                                                                <td><i id="afectivo_definicion" class="fa fa-question hvr-grow" aria-hidden="true"></i> Factores Contextuales</td>
+                                                                                                <td>Fortaleza A o M <br>O<br>Alerta M o A </td>
+                                                                                                <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+                
+                                                                                            </tr>                                                                           
+                                                                                    <tr>
+                                                                                        <td><i id="afectivo_definicion" class="fa fa-question hvr-grow" aria-hidden="true"></i> Apoyo Familia</td>
+                                                                                        <td>Fortaleza A o M <br>O<br>Alerta M o A </td>
+                                                                                        <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+        
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td><i id="conductual_definicion" class="fa fa-question" aria-hidden="true"></i> Apoyo Pares</td>
+                                                                                        <td>Fortaleza A o M <br>O<br>Alerta M o A</td>
+                                                                                        <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+        
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td><i id="cognitivo_definicion" class="fa fa-question" aria-hidden="true"></i> Apoyo Profesores</td>
+                                                                                        <td>Fortaleza A o M <br>O<br>Alerta M o A </td>
+                                                                                        <td>Indicador Fortaleza<br>O<br>Indicador Alerta </td>
+        
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>

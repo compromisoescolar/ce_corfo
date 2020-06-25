@@ -1,0 +1,39 @@
+    //'modules/exporting',
+												    ],
+												   'options' => [
+												   	  'chart' => [
+												   	  		'polar' => true,
+												   	  		'type' => 'line',
+												   	  		'renderTo' => 'chart',
+												   	  		'spacingTop' => 0,
+												   	  		'spacingBottom' => 0,
+												   	  		'spacingLeft' => 0,
+												   	  		'spacingRight' => 0,
+												   	  		'width' => 450
+												   	  ],
+												   	  'legend' => [
+												   	  	'enabled' => false
+												   	  ],
+												   	  'credits' => ['enabled' => false],
+												      'title' => ['text' => ''],
+												      'xAxis' => [
+												      	 'gridLineColor' => '#8a8a5c',
+												         'categories' => ['Afectivo', 'Conductual', 'Cognitivo'],
+												         'tickmarkPlacement' => 'on',
+												         'lineWidth' => 0
+												      ],
+												      'yAxis' => [
+												         'gridLineInterpolation' => 'polygon',
+												         'gridLineColor' => '#8a8a5c',
+												      	 'gridLineWidth' => 1,
+												      	 'lineWidth' => 0,
+												      	 'max' => 5,
+												      	 'showLastLabel' => true,
+												      	 'tickPositions' => [1,2,3,4,5]
+												      ],
+												      'series' => [
+												         ['name' => 'Promedio', 'data' => [$afectivoCurso[0], $conductualCurso[0], $cognitivoCurso[0] ], 'pointPlacement' => 'on','color' => 'rgb(51, 122, 183)']
+												      ]
+												   ]
+												]);
+							                	?>

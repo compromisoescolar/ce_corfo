@@ -1,0 +1,46 @@
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{SURVEYNAME}</title>
+    <meta name="generator" content="LimeSurvey http://www.limesurvey.org" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- The following line includes jquery-ui.css or jquery-ui-custom.css from template dir, template.css and needed specific css file for survey -->
+    {TEMPLATECSS}
+    <link rel="stylesheet" type="text/css" href="/third_party/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="{TEMPLATEURL}alertify_core.css" />
+    <link rel="stylesheet" type="text/css" href="{TEMPLATEURL}alertify_default.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{TEMPLATEURL}favicon.ico" />
+    <!-- The following line includes jquery.js, jquery-ui.js, survey_runtime.js , template.js and needed specific js file for survey -->
+    {TEMPLATEJS}
+    <script type="text/javascript" src="{TEMPLATEURL}alertify_min.js"></script>
+    <link rel="shortcut icon" href="{TEMPLATEURL}favicon.ico" />
+    {GOOGLE_ANALYTICS_JAVASCRIPT}    
+</head>
+<body class="encuesta">
+<div class="loading oculto"><span id="loading-text"></span></div>
+<!--[if lt IE 7 ]> <div id="container" class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} ie ie6 ielt7 ielt8 ielt9 no-js"> <![endif]-->
+<!--[if IE 7 ]> <div id="container" class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} ie ie7 ielt8 ielt9 no-js"> <![endif]-->
+<!--[if IE 8 ]> <div id="container" class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} ie ie8 ielt9  no-js"> <![endif]-->
+<!--[if IE 9 ]> <div id="container" class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} ie ie9 no-js"> <![endif]-->
+<!--[if gt IE 9]><!--><div id="container" class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} no-js"><!--<![endif]-->
+<script type='text/javascript'>/*<![CDATA[*/(function(H){ H.className=H.className.replace(/\bno-js\b/,'js') })(document.getElementById('container'));/*]]>*/</script>    
+<div id="cabecera-salir"><span class="logo"></span><div id="salir"><a id="link-salir" href="/salir.php"><span id="btn-salir" title="Salir"> </span>Salir</a></div></div>
+    <div id="head">        
+		<div class="wrapper">
+			<!--<a href="#" title="Made with LimeSurvey" id="link-logo"><img src="{TEMPLATEURL}logo.png" alt=" " id="logo"/></a>-->
+            <table class="head-table">
+                <tr>
+            		<!--td><span class="logo"></span-->
+                    <!--<span id="sitename">{SITENAME}</span></td>-->
+            		<td>
+                                                      
+                   </td>
+            	</tr>
+            </table>
+		</div>        
+	</div>
+    <div style="clear:both;"></div>
+    <audio src="" class="tts" hidden></audio>
+    <div id="region-main" class="s-{SID}9">
+        <div class="tools progress">{PERCENTCOMPLETE}</div>
+    	<div id="content" class="outerframe">
+                                                                                                                                                                                                                                                                                                                        

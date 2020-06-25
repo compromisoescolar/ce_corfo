@@ -1,0 +1,17 @@
+<div {QUESTION_ESSENTIALS} class="question-wrapper {QUESTION_CLASS}{QUESTION_MAN_CLASS}{QUESTION_INPUT_ERROR_CLASS}">
+	<div class="question-text">
+		<span class="asterisk">{QUESTION_MANDATORY}</span><span class="qnumcode">{QUESTION_NUMBER} {QUESTION_CODE} </span>{QUESTION_TEXT}
+	       </span><span class="audio-item reproducir" data-audio="opciones-preguntas"></span><span class="description-text"><strong>NU</strong> Nunca o casi nunca </span> / <span class="description-text"><strong>  AL</strong> Algunas veces </span> / <span class="description-text"><strong> AM</strong> A menudo</span> / <span class="description-text"><strong> MV</strong> Muchas veces </span> / <span class="description-text"><strong> SC</strong> Siempre o casi siempre</span> 
+	</div>
+	<div class="help-wrapper">
+		<div class="mandatory error">{QUESTION_MAN_MESSAGE}</div>
+		{QUESTION_VALID_MESSAGE}
+		<div class="tip">{QUESTION_HELP}</div>
+	</div>
+	<div class="answers-wrapper">
+		{ANSWER}
+	</div>
+	<div class="question-help">
+		{QUESTIONHELP}
+	</div>
+</div>

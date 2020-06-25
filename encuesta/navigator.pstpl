@@ -1,0 +1,7 @@
+                	<p class="navigator">{NAVIGATOR}</p>
+    <div style="clear:both;"></div>
+	<ul class="tools">
+		<li>{SAVE}</li>
+		<li>{CLEARALL}</li>
+	</ul>
+            
